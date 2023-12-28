@@ -23,11 +23,23 @@ public class Cart extends Page {
     @FindBy(xpath = "//p[@class='quantity']")
     WebElement quantityOnTable;
 
+    @FindBy(xpath = "//button[normalize-space()='Place Order']")
+    WebElement placeOrderButton;
+
+    @FindBy(xpath = "//label[normalize-space()='Choose Country']")
+    WebElement chooseCountryLabelPlaceOrderPage;
+
     public String getProductNameFromCart() {
         return productNameOnTable.getText();
     }
 
     public String getQuantityFromCart() {
         return quantityOnTable.getText();
+    }
+
+    public PlaceOrderPage clickOnPlaceOrderButton() {
+        placeOrderButton.click();
+        waitTillVisibilityOfElement(chooseCountryLabelPlaceOrderPage);
+        return  new PlaceOrderPage(driver);
     }
 }
