@@ -8,6 +8,7 @@ import org.testng.annotations.DataProvider;
         features = "src/test/java/featureFiles",
         glue = "stepDefinitionFiles",
         monochrome = true,
+        tags = "@PlaceOrder",
         plugin = {
                 "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
                 "rerun:target/failedScenarios.txt"

@@ -52,9 +52,9 @@ public class Page {
         wait.until(ExpectedConditions.invisibilityOf(element));
     }
 
-    public void waitTillTextAppears(String text){
+    public void waitTillTextAppears(WebElement element, String text){
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
-        wait.until(ExpectedConditions.titleContains(text));
+        wait.until(ExpectedConditions.textToBePresentInElement(element, text));
     }
 
     public WebDriverWait getWaitObject(){

@@ -29,7 +29,12 @@ public class PlaceOrderPage extends Page {
         Select select = switchToSelectDropDown(selectCountryDropDown);
         select.selectByValue(country);
         String selectedCountry = select.getFirstSelectedOption().getText();
-        waitTillTextAppears(selectedCountry);
+        waitTillTextAppears(selectCountryDropDown,selectedCountry);
+    }
+
+    public String getSelectedCountry(){
+        Select select = switchToSelectDropDown(selectCountryDropDown);
+        return  select.getFirstSelectedOption().getText();
     }
 
     public void checkAgreeCheckbox(){
