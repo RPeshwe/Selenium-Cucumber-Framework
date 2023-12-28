@@ -1,9 +1,9 @@
 package Utlis;
 
-import PageObjects.Cart;
+import PageObjects.Pages.Cart;
 import PageObjects.Component.CartComponent;
-import PageObjects.GreenCartPage;
-import PageObjects.PlaceOrderPage;
+import PageObjects.Pages.GreenCartPage;
+import PageObjects.Pages.PlaceOrderPage;
 import org.openqa.selenium.WebDriver;
 
 public class TestContextSetup {

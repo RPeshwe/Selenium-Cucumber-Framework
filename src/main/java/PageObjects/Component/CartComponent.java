@@ -1,7 +1,7 @@
 package PageObjects.Component;
 
-import PageObjects.Cart;
-import PageObjects.GreenCartPage;
+import PageObjects.Pages.Cart;
+import PageObjects.Pages.GreenCartPage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;

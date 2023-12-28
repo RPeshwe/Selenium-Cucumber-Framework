@@ -1,8 +1,7 @@
-package PageObjects;
+package PageObjects.Pages;
 
 import Page.Page;
 import PageObjects.Component.CartComponent;
-import io.cucumber.java.en.Then;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;

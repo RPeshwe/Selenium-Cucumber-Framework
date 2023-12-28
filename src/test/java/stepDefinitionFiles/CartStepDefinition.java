@@ -1,10 +1,9 @@
 package stepDefinitionFiles;
 
-import PageObjects.Cart;
+import PageObjects.Pages.Cart;
 import Utlis.TestContextSetup;
 import Utlis.UiBaseTest;
 import io.cucumber.java.en.And;
-import io.cucumber.java.en.Then;
 import org.assertj.core.api.SoftAssertions;
 
 public class CartStepDefinition extends UiBaseTest {

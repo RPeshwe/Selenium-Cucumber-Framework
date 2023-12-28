@@ -1,6 +1,5 @@
 package stepDefinitionFiles;
 
-import PageObjects.GreenCartPage;
 import Utlis.TestContextSetup;
 import Utlis.UiBaseTest;
 import io.cucumber.java.en.And;
