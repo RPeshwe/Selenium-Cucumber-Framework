@@ -1,12 +1,11 @@
 package stepDefinitionFiles;
 
-import PageObjects.TopDealsOffersPage;
+import PageObjects.Pages.TopDealsOffersPage;
 import Utlis.TestContextSetup;
 import Utlis.UiBaseTest;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.assertj.core.api.Assertions;
-import org.openqa.selenium.WebDriver;
 
 import java.util.Set;
 

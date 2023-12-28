@@ -1,11 +1,10 @@
 package stepDefinitionFiles;
 
-import PageObjects.Cart;
-import PageObjects.PlaceOrderPage;
+import PageObjects.Pages.Cart;
+import PageObjects.Pages.PlaceOrderPage;
 import Utlis.TestContextSetup;
 import Utlis.UiBaseTest;
 import io.cucumber.java.en.And;
-import io.cucumber.java.ja.且つ;
 import org.assertj.core.api.Assertions;
 
 public class PlaceOrderStepDefinition extends UiBaseTest {

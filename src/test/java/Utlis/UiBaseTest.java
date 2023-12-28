@@ -1,8 +1,6 @@
 package Utlis;
 
-import PageObjects.GreenCartPage;
-import io.cucumber.java.After;
-import org.apache.commons.io.FileUtils;
+import PageObjects.Pages.GreenCartPage;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -12,7 +10,6 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
-import org.testng.annotations.AfterMethod;
 
 import java.io.File;
 import java.io.FileInputStream;
